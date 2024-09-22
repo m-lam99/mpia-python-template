@@ -14,7 +14,8 @@ def add_one(number):
     """
 
     if isinstance(number, (float, int)):
-        return number + 2
+        result = number + 1
+        return result
     elif isinstance(number, (str)):
         return number + '1'
     else:
